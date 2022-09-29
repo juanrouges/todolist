@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Finito | To-do List</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+  <div class="wrapper">
+    <header class="header">
+      <div class="header_inner">
+        <h1><span>Finito</span> to-do list</h1>
+      </div>
+    </header>
+    <!-- Add Item -->
+    <section class="addItem">
+      <div class="addItem_inner">
+        <form id="addItemForm" class="addItem_form">
+          <input class="addItem_input" type="text" placeholder="Add a task" value="" />
+          <button class="">Add</button>
+        </form>
+      </div>
+    </section>
+    <!-- Todo List -->
+    <section class="todo">
+      <div class="todo_inner">
+        <ul id="todoList" class="todo_list"></ul>
+      </div>
+    </section>
+  </div>
+  
+  <script src="app.js"></script>
+</body>
+</html>
